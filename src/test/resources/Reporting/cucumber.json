@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Verifying the adactin hotel booking login and details",
+        "description": "",
+        "id": "entering-credentials-details-and-using-datatable;verifying-the-adactin-hotel-booking-login-and-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is enter the adactin hotel booking page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user should enter the crendentials detail\"syedabdul\",\"342H8J\",\"Sydney\",\"Hotel Creek\",\"Double\",\"23/08/2020\",\"24/08/2020\",\"syed\",\"abdul\",\"3/353 paramakudi\",\"0987654321123456\",\"May\",\"2022\" and \"987\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "noOfRoom",
+                  "adultPerRoom",
+                  "childPerRoom",
+                  "cardType"
+                ]
+              },
+              {
+                "cells": [
+                  "1 - One",
+                  "1 - One",
+                  "0 - None",
+                  "American Express"
+                ]
+              },
+              {
+                "cells": [
+                  "2 - Two",
+                  "2 - Two",
+                  "1 - One",
+                  "Other"
+                ]
+              },
+              {
+                "cells": [
+                  "3 - Three",
+                  "3 - Three",
+                  "2 - Two",
+                  "Master Card"
+                ]
+              },
+              {
+                "cells": [
+                  "4 - Four",
+                  "4 - Four",
+                  "3 - Three",
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "5 - Five",
+                  "",
+                  "4 - Four",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "6 - Six",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "7 - Seven",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "8 - Eight",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "9 - Nine",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "10 - Ten",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "print the order number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user should click the log out button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Entering Credentials details and using DataTable",
+    "description": "",
+    "id": "entering-credentials-details-and-using-datatable",
+    "keyword": "Feature",
+    "uri": "C:/Users/ragavboom/eclipse-workspace/CucumberTasks/src/test/resources/Features/FeaturePage5.feature",
+    "tags": []
+  }
+]
